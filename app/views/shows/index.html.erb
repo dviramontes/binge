@@ -1,5 +1,5 @@
 <ul>
-  <li>shitt's creek</li>
-  <li>raised by wolves</li>
-  <li>steven universe</li>
+  <% @shows.each do |show| %>
+    <li><%= show %></li>
+  <% end %>
 </ul>

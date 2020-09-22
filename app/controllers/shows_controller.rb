@@ -1,5 +1,5 @@
 class ShowsController < ApplicationController
   def index
-    @shows = ["shitt's creek", "steven universe", "raised by wolves"]
+    @shows = Show.all
   end
 end

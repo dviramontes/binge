@@ -1,5 +1,9 @@
 <ul>
   <% @shows.each do |show| %>
-    <li><%= show %></li>
+    <li>
+      <strong><%= show.name %></strong>,
+      rating: <%= show.rating %>,
+      watched: <%= show.watched %>
+    </li>
   <% end %>
 </ul>
